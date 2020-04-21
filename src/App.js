@@ -1,7 +1,9 @@
 import React from 'react';
 
-import Routes from './src/routes';
+import createRouter from './routes';
 
 export default function App() {
+  const Routes = createRouter();
+
   return <Routes />;
 }
